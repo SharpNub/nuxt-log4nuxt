@@ -42,8 +42,7 @@ const logTypes: LogTypes = {
 }
 
 export default defineNuxtPlugin(() => {
-  const { $config } = useNuxtApp()
-  const options = $config.public.log4nuxt
+  const options = useRuntimeConfig().public.log4nuxt
 
   if (!options) {
     throw new Error('log4nuxt is misconfigured. There are no options set')

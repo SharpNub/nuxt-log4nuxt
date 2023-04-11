@@ -36,7 +36,7 @@ export default defineNuxtModule<ModuleOptions>({
         nuxt.options.runtimeConfig.public.log4nuxt = defu(nuxt.options.runtimeConfig.public.log4nuxt, {
             isEnabled: options.isEnabled,
             logLevel: options.logLevel
-          })
+        })
 
         if (!options.isEnabled) {
             console.warn("[log4nuxt] Module is disabled (`isEnabled` = `false`) so no logs will be displayed.")
