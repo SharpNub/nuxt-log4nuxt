@@ -10,8 +10,6 @@ A small but helpful logging module for nuxt 3 projects based on [nuxt-logger](ht
 
 ## Setup
 
-## Quick Setup
-
 1. Add `nuxt-log4nuxt` dependency to your project
 
 ```bash
