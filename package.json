@@ -1,9 +1,32 @@
 {
-  "name": "log4nuxt",
-  "version": "1.0.0",
+  "name": "nuxt-log4nuxt",
+  "version": "1.0.1",
   "description": "A Nuxt3 Logging Plugin",
-  "repository": "@sharpnub/nuxt-log4nuxt",
+  "author": "SharpNub",
+  "contributors": [
+    {
+      "name": "CraftingGamerTom",
+      "url": "https://thomasrokicki.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SharpNub/nuxt-log4nuxt.git"
+  },
   "license": "MIT",
+  "keywords": [
+    "nuxt",
+    "nuxtjs",
+    "nuxt3",
+    "nuxt-logger",
+    "nuxt-log",
+    "log",
+    "log4nuxt",
+    "logger",
+    "debug",
+    "error",
+    "warning"
+  ],
   "type": "module",
   "exports": {
     ".": {
@@ -28,7 +51,8 @@
     "test:watch": "vitest watch"
   },
   "dependencies": {
-    "@nuxt/kit": "^3.1.1"
+    "@nuxt/kit": "^3.1.1",
+    "defu": "^6.1.2"
   },
   "devDependencies": {
     "@nuxt/eslint-config": "^0.1.1",
