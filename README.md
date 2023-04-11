@@ -5,11 +5,6 @@
 [![License][license-src]][license-href]
 [![Nuxt][nuxt-src]][nuxt-href]
 
-
-[![npm](https://img.shields.io/npm/dt/nuxt-log4nuxt.svg?style=flat-square)](https://npmjs.com/package/nuxt-log4nuxt)
-[![npm (scoped with tag)](https://img.shields.io/npm/v/nuxt-log4nuxt/latest.svg?style=flat-square)](https://npmjs.com/package/nuxt-log4nuxt)
-[![npm (scoped with tag)](https://img.shields.io/npm/l/nuxt-log4nuxt.svg?style=flat-square)](https://npmjs.com/package/nuxt-log4nuxt)
-
 ## Introduction
 A small but helpful logging module for nuxt 3 projects based on [nuxt-logger](https://www.npmjs.com/package/nuxt-logger) created by [mahnuh](https://www.npmjs.com/~mahnuh)
 
@@ -40,8 +35,8 @@ export default defineNuxtConfig({
 
   // OPTIONAL CONFIGURATION
   log4nuxt: {
-    isEnabled: true, // OPTIONAL: true or false, defaults to true
-    logLevel: 'trace', // OPTIONAL: trace, debug, info, warn or error, defaults to debug
+    isEnabled: true, // true or false, defaults to true
+    logLevel: 'trace', // trace, debug, info, warn or error, defaults to debug
   }
 })
 ```
