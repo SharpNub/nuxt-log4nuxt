@@ -45,10 +45,10 @@ That's it! You can now use log4nuxt in your Nuxt app ✨
 
 ## Usage
 
-There are 5 methods available, one for each log level (trace, debug, info, warn, error) which accept one or more arguments of any kind.
+There are 5 methods available, one for each log level (`trace`, `debug`, `info`, `warn`, `error`) which accept one or more arguments of any kind.
 
 For example
-```
+```js
   this.$log4nuxt.trace('log a trace message')
   this.$log4nuxt.debug('log a debug message')
   this.$log4nuxt.info('log an info message')
@@ -92,10 +92,10 @@ export default defineComponent({
 
 <p algin="center">
   <h4>Client Side</h4>
-	<img src="https://github.com/SharpNub/nuxt-log4nuxt/tree/main/documentation/assets/logs-client_side.png">
+	<img src="https://raw.githubusercontent.com/SharpNub/nuxt-log4nuxt/main/documentation/assets/logs-client_side.png">
   <br/>
   <h4>Server Side</h4>
-	<img src="https://github.com/SharpNub/nuxt-log4nuxt/tree/main/documentation/assets/logs-server_side.png">
+	<img src="https://raw.githubusercontent.com/SharpNub/nuxt-log4nuxt/main/documentation/assets/logs-server_side.png">
 </p>
 
 ## Changelog 
